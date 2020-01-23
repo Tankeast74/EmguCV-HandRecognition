@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCV test", "OpenCV test\OpenCV test.csproj", "{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Debug|x64.ActiveCfg = Debug|x64
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Debug|x64.Build.0 = Debug|x64
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Release|x64.ActiveCfg = Release|x64
+		{E35FEFE9-835F-4B27-8D42-46F103CC1FBE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F6AAE8B-7FCB-463F-BEB0-92ACCA92CFE9}
+	EndGlobalSection
+EndGlobal

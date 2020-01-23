@@ -1,0 +1,39 @@
+﻿<Window x:Class="OpenCV_test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpenCV_test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1400" ResizeMode="CanResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderThickness="1" BorderBrush="Black" Height="500" Width="500" Margin="80,80,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image x:Name="InputImageBox"/>
+        </Border>
+        <Button x:Name="BtnOpenImage" Content="Открыть" HorizontalAlignment="Left" Margin="130,600,0,0" VerticalAlignment="Top" Height="100" Width="400" Click="OpenImage_Click" FontSize="36"/>
+        <Border BorderThickness="1" BorderBrush="Black" Height="500" Width="500" Margin="80,80,80,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Image x:Name="OutputImageBox"/>
+        </Border>
+        <Button x:Name="BtnImageRecognition" Content="Распознать" HorizontalAlignment="Right" Margin="0,600,130,0" VerticalAlignment="Top" Height="100" Width="400" Click="ImageRecognition_Click" FontSize="36"/>
+        <CheckBox x:Name="FilterBox" Content="Сглаживание" HorizontalAlignment="Left" Margin="140,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" >
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="PropertyBox" Content="Квадрат/Окружность" HorizontalAlignment="Center" Margin="140,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" >
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+    </Grid>
+</Window>
